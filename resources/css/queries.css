@@ -1,0 +1,173 @@
+@media only screen and ( max-width:1200px ){
+	html{
+		font-size: 15px;
+	}
+	.heading-main-box{
+		transform: translate(-30%, -50%);
+	}
+	figure img{
+    margin-left: 28%;
+    }
+    form{
+        margin-left: 30%;
+	
+    }
+
+}
+@media only screen and ( max-width:1024px ){
+	.logo{
+		width: 300px;
+		margin-left: 30px;
+	}
+	.main-nav{
+		margin: 15px;
+		margin-top: 35px;
+	}
+	.main-nav li{
+		margin: 10px;
+	}
+	.heading-main-box{
+		transform: translate(-20%, -50%);
+	}	
+	.product-box .btn{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.product-box{
+		width: 93%;
+	}
+	h3{
+		font-size: 90%;
+	}
+	.product-box ul li{
+    margin-left: 5%; 
+    }
+	figure img{
+    width: 130px;
+    margin-left: 23%;
+    }
+    .information i{
+    display: block;
+    font-size: 14px;
+    }
+    .social-icons li {
+    margin-right: 12px;
+    }
+}
+
+@media only screen and ( max-width:767px ){
+	.col{
+		width: 100%;
+	}
+
+	.main-nav{
+		visibility: hidden;
+	}
+	.logo{
+		width: 350px;
+		word-spacing: 2px;
+		margin-left: 15%;
+	}
+	.heading-main-box{
+		transform: translate(-19%, -50%);
+	}		
+	h1{
+		font-size: 290%;
+        word-spacing: 2px;
+	}
+	.product-box .btn{
+		width: 70%;
+		margin-left: 17.777%;
+	}
+	.about-picture {
+		text-align: center;
+	}
+	.about-picture img{
+		width: 70%;
+		margin-bottom: 20px;
+	}
+	.about-section .row .p-long{
+		font-size: 20px;
+	}
+	.picture-title{
+		font-size: 20px;
+	}
+	.product-box{
+		width: 66%;
+		margin-left: 17%;
+		margin-bottom: 10px;
+	}
+	.product-box ul li{
+    margin-left: 20%;
+
+    }	
+    cite{
+    margin-top: 15px;
+    }
+    .testimonials-section .row .col{
+    	margin-bottom: 40px;
+    }
+    figure img{
+    margin-left: 35%;
+    margin-bottom: 20px;
+    width: 150px
+    }
+    figcaption{
+    	visibility: hidden;
+    }
+    form{
+    	width: 80%;
+    	margin-left: 10%;
+    }
+    label{
+    	margin-left: 38%;
+    }
+    .information {
+	margin-top: 20px;
+	text-align: center;
+    }
+    .social-icons {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 140%;
+    }
+    .information li{
+    font-size: 18px;
+    }
+}
+
+@media only screen and ( max-width:480px ){
+	html{
+		font-size: 11px;
+	}
+	.logo{
+		width: 280px;
+	}
+	.heading-main-box{
+		transform: translate(-14%, -50%);
+	}	
+	.heading-main-box .btn{
+		display: block;
+		margin-bottom: 20px;
+		margin-left: 6%;
+
+	}	
+    figure img{
+    margin-left: 17.777%;
+    margin-bottom: 20px;
+    width: 150px
+    }	
+    .information li{
+    	margin-bottom: 20px
+    }
+    label{
+    	margin-left: 33.3333%;
+    }    
+    input[type="submit"]{
+    padding: 15px 30px 15px 19px;
+}
+
+
+
+}
